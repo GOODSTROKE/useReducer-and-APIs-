@@ -1,0 +1,35 @@
+body{
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+#container {
+    height: 100vh;
+    width: 100%;
+    border: solid #0e0d0d 2px;
+    padding: 5px; /* Adjust the value for the desired padding around the content */
+  }
+  
+
+  #div1 {
+    height: 5%;
+    width: 100%;
+    padding-bottom: 5px;
+    display: flex; 
+    align-content: space-evenly;
+  }
+  
+
+
+  #div2 {
+    height: 90%;
+    width: 100%;
+    overflow-y: scroll;
+    border: solid black 2px;
+    scrollbar-color: black; /* Modern syntax */
+    scrollbar-color: black black; /* For compatibility with older versions of Firefox */
+    /* Add vendor prefixes for older versions of Chrome, Edge, and Safari */
+    scrollbar-width: thin;
+    scrollbar-color: black black;
+  }
+  

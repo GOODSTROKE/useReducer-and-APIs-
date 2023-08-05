@@ -1,0 +1,13 @@
+.card {
+    width: 100%;
+    height: auto;
+    border: 0; /* Resetting the border to 0 */
+    border-top: 2px solid hsl(0, 0%, 4%); /* Setting the top border */
+    border-right: 2px solid hsl(0, 0%, 4%); /* Setting the right border */
+    border-bottom: 2px solid hsl(0, 0%, 4%); /* Setting the bottom border */
+    box-sizing: border-box;
+    padding-left: 10px;
+    background-color:#FFDB58
+  }
+  
+
